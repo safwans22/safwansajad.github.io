@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/059e6421a3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Safwan Sajad Portfolio</title>
+    <style>
+        /* Desktop styles */
+        @media (min-width: 769px) {
+            /* Your existing desktop styles go here */
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+                /* Adjust font size for better readability on smaller screens */
+            }
+
+            .firstSection div,
+            .rightSection img {
+                width: 100%;
+                /* Make these elements full width on mobile */
+            }
+
+            .container {
+                width: 80%;
+                /* Adjust container width for better mobile layout */
+            }
+
+            .container img {
+                width: 100%;
+                /* Make container images full width on mobile */
+            }
+
+            /* You can add more mobile-specific styles here */
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #14022B;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 68px;
+            background-color: #24044b;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(81, 81, 160);
+            size: 3rem;
+        }
+
+        ;
+
+        .left {
+            size: 1.5rem;
+        }
+
+        .firstSection {
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+        .leftSection {
+            width: 100%;
+            margin: 49px 0 0 0;
+            font-size: 1.5rem;
+
+        }
+
+        .rightSection img {
+            width: 250px;
+            margin: 20px;
+        }
+
+        .purple {
+            color: rgb(111, 49, 169);
+        }
+
+        .container {
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(214, 214, 214);
+            justify-content: space-between;
+            display: flex;
+            border: 2px solid #ccc;
+            border-radius: 40px;
+            padding: 20px;
+
+            width: 60%;
+         font-family: 'handjet', 'sans-serif';
+
+            font-size: 2.5rem;
+            text-align: center;
+            color: black;
+
+        }
+
+        .container img {
+            width: 150px;
+        }
+
+        .html img {
+            width: 149px;
+        }
+
+        .CSS img {
+    width: 132px;
+}
+
+        .Java img {
+            width: 80px;
+        }
+
+        .Cpp img {
+            width: 133px;
+
+        }
+
+        .Python img {
+            width: 133px;
+
+        }
+
+        .html:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .WordPress img {
+            width: 146px;
+        }
+
+        .CSS:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .Java:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .Python:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .Cpp:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .WordPress:hover {
+            color: rgb(0, 72, 135);
+        }
+
+        .main {
+            margin: auto;
+            max-width: fit-content;
+        }
+
+        .myskills {
+            font-family: 'handjet', 'sans-serif';
+            font-size: 3rem;
+            color: lavender;
+        }
+
+        .project-title {
+            font-family: 'Playfair Display', serif;
+            margin: auto;
+            color: #28163f;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .project-title a {
+            text-decoration: none;
+            color: #28163f;
+        }
+
+        .project-title a:hover {
+            color: yellow;
+        }
+
+        .newblock {
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(214, 214, 214);
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+            width: 40%;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            text-align: center;
+            color: black;
+
+        }
+
+        .Internships a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .Internships a:hover {
+            color: orange;
+        }
+
+        footer {
+            background-color: #24044b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer-icons a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-icons a:hover {
+            color: rgb(81, 81, 160);
+        }
+
+        .about {
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #14022B;
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+            width: 40%;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            color: white;
+            border: 2px solid #6b4b96;
+            border-radius: 40px;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Safwan's Portfolio
+
+            </div>
+
+            <div class="right">
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hello.</div>
+                My name is <span class="purple"> Safwan Sajad Thokar.</span>
+                I'm a II Year B.Tech CSE (AI&ML) Student at <span class="purple"> SRMIST, Chennai </span>
+
+<span> & I'm <span id="element"></span></span>
+
+            </div>
+            <div class="rightSection">
+<img src="bg.png">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i> a passionate </i>Learner', ' an aspiring programmer.'],
+            typeSpeed: 70,
+        });
+    </script>
+
+    <section class="main">
+        <span class="myskills">ABOUT</span>
+    </section>
+    <div class="about">
+        <div>
+            "Aspiring computer science engineer with a relentless passion for problem-solving and a robust foundation in Python, JavaScript, HTML, and CSS. Currently, I'm on an exciting journey pursuing my B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
+<br>
+            Beyond my academic pursuits, I'm a fervent nature lover who finds solace in the great outdoors. You can often find me camping in the heart of nature, capturing its beauty through my lens as a dedicated photographer. My love for technology and my fascination with the natural world beautifully intersect in my work. 
+            I'm on a mission to use my coding skills to harness the power of data to protect and preserve our environment."
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <section class="main">
+        <span class="myskills">MY SKILLS</span>
+    </section>
+    <div class="container">
+
+        <div class="html">
+
+            <img src="html.png"></img>
+            <div>HTML5</div>
+        </div>
+        <div class="CSS">
+            <img src="css.png"></img>
+            <div>CSS</div>
+        </div>
+        <div class="Cpp">
+            <img src="c++.png"></img>
+            <div>C++</div>
+        </div>
+        <div class="Java">
+            <img src="java.png"></img>
+            <div>JAVA</div>
+        </div>
+        <div class="Python">
+            <img src="python.png"></img>
+            <div>PYTHON</div>
+        </div>
+
+
+    </div>
+    <section class="main">
+        <span class="myskills">PROJECTS</span>
+    </section>
+    <div class="container">
+        <span class="project-title">
+            <a href="https://github.com/safwans22/BankingSystemOOPS">Banking System Using OOPS</a><br>
+            <a href="https://github.com/safwans22/TamilNaduBillCalc">Tamil Nadu Bill Calculator</a><br>
+            <a href="https://github.com/safwans22/SkillBox">HTML CSS Skill Box for Portfolio</a>
+
+    </div>
+    <section class="main">
+        <span class="myskills">GPA</span>
+    </section>
+    <div class="container">
+        <div class="textgpa">
+            <div>1st Sem</div>
+            <div>8.27</div>
+        </div>
+        <div class="textgpa">
+            <div>3rd Sem</div>
+            <div>8.3</div>
+        </div>
+
+
+    </div>
+    <div class="newblock">
+        <div class="Internships">
+            <a href="https://drive.google.com/drive/folders/1OX0Ccx9F8p2vo-7SQTAR2YGxLcEbbNMZ?usp=sharing"
+                target="_blank" rel="noopener">
+                Internships & Certifications <i class="fa-solid fa-check"></i></a>
+        </div>
+    </div>
+    <div class="newblock">
+        <div class="Internships">
+            <a href="https://drive.google.com/file/d/1_-2C-0bX3_80_vW98mS9_MpplsRK2gq1/view?usp=sharing" target="_blank"
+                rel="noopener">
+                My Resume <i class="fa-solid fa-file"></i></a>
+        </div>
+    </div>
+
+
+
+</body>
+
+<footer>
+    <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/safwansajad/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/safwans22" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:st0578@srmist.edu.in">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.hackerrank.com/safwansajad" target="_blank" rel="noopener">
+            <i class="fa-brands fa-hackerrank"></i>
+        </a>
+    </div>
+</footer>
+
+
+</html>
